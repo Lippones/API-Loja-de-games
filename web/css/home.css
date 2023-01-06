@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+:root{
+    --corPrincipal:#8880fe;
+    --corSecundaria:#6c63ff;
+    --background:#2a003f;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+    
+}
+header{
+    background-color: var(--corSecundaria);
+    color: #FFF;
+    padding-top: 20px;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+main{
+    width: 100vw;
+    height: 90vh;
+}
+label{
+    color: #FFF;
+    font-size:1.1rem;
+    font-weight: 500;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 3vh;
+    text-align: center;
+}
+.div-games ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.div-games ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+
+}
+li p{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    height: 30px;
+    width: 100%;
+    color: #FFF;
+    background-color: #1d1d1d98;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+li{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: #11151c;
+    background-size: cover;
+    background-position: center;
+}
+input{
+    padding: 20px;
+    background-color: #161923;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: rgba(166, 166, 166, 1);
+}
+button{
+    background-color: var(--corPrincipal);
+    color: #FFF;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+li button{
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form input, button{
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
+    margin:10px 0;
+}
+h2{
+    color: #FFF;
+}
