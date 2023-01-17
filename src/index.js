@@ -49,7 +49,7 @@ async function VerifyConnection(req,res,next){
 app.get('/games', VerifyConnection,auth, async(req,res)=>{
     try{
         const result = await Games.findAll()
-        res.status(200).json(result)
+        res.status(200).json()
     }catch(err){
         res.status(500).json({error:err})
     }
